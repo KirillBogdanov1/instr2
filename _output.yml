@@ -1,0 +1,11 @@
+bookdown::gitbook:
+  css: [css/style.css,style.css] #A hacky fix to make it work with chapter preview
+  config: 
+    toc:
+      collapse: subsection
+    download: [["instr.pdf", "PDF"], ["instr.docx", "DOCX"]]
+    info: false
+    sharing:
+
+  
+    
